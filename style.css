@@ -1,0 +1,168 @@
+/* .card1 {
+  height: 20rem;
+  margin: 0%;
+  padding: 0%;
+  border: none;
+}
+.card2 {
+  height: 20rem !important;
+  margin: 0%;
+  padding: 0%;
+} */
+* {
+  position: relative;
+}
+
+.btn {
+  background-color: orange;
+}
+.about {
+  max-width: 1000px;
+}
+
+.overall {
+  display: flex;
+}
+.card-img-overlay {
+  color: aliceblue;
+  padding: 40px;
+}
+
+.about image {
+  overflow: hidden;
+  float: right;
+  height: 250px;
+  margin-right: 2%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.background clr {
+  background: silver;
+}
+.starting-line {
+  position: absolute;
+  top: 400px;
+  margin-left: 400px;
+}
+
+.starting-line1 {
+  border: 1px solid black;
+  position: absolute;
+  top: 700px;
+  margin-left: 400px;
+  font-size: 13px;
+}
+
+.starting-line2 {
+  border: 1px solid black;
+  position: absolute;
+  top: 830px;
+  margin-left: 400px;
+  font-size: 13px;
+}
+.button {
+  border: 1px solid black;
+  position: absolute;
+  top: 940px;
+  margin-left: 400px;
+  font-size: 13px;
+}
+.cent {
+  margin-left: 500px;
+}
+
+/* display: flex;
+  margin-left: 100px; */
+
+/* .grey-box {
+  background-color: grey;
+  /* padding: 1px;
+  margin: 10px; */
+/* display: flex; */
+
+/* justify-content: center; */
+/* align-items: center;
+} */
+/* }
+.card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+} */
+
+@import "//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css";
+@import "http://fonts.googleapis.com/css?family=Roboto:400,500";
+
+.box > .icon {
+  text-align: center;
+  position: relative;
+}
+.box > .icon > .image {
+  position: relative;
+  z-index: 2;
+  margin: auto;
+  width: 88px;
+  height: 88px;
+  border: 8px solid white;
+  line-height: 88px;
+  border-radius: 50%;
+  background: #63b76c;
+  vertical-align: middle;
+}
+.box > .icon:hover > .image {
+  background: #333;
+}
+.box > .icon > .image > i {
+  font-size: 36px !important;
+  color: #fff !important;
+}
+.box > .icon:hover > .image > i {
+  color: white !important;
+}
+.box > .icon > .info {
+  margin-top: -24px;
+  background: rgba(0, 0, 0, 0.04);
+  border: 1px solid #e0e0e0;
+  padding: 15px 0 10px 0;
+}
+.box > .icon:hover > .info {
+  background: rgba(0, 0, 0, 0.04);
+  border-color: #e0e0e0;
+  color: white;
+}
+.box > .icon > .info > h3.title {
+  font-family: "Roboto", sans-serif !important;
+  font-size: 16px;
+  color: #222;
+  font-weight: 500;
+}
+.box > .icon > .info > p {
+  font-family: "Roboto", sans-serif !important;
+  font-size: 13px;
+  color: #666;
+  line-height: 1.5em;
+  margin: 20px;
+}
+.box > .icon:hover > .info > h3.title,
+.box > .icon:hover > .info > p,
+.box > .icon:hover > .info > .more > a {
+  color: #222;
+}
+.box > .icon > .info > .more a {
+  font-family: "Roboto", sans-serif !important;
+  font-size: 12px;
+  color: #222;
+  line-height: 12px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.box > .icon:hover > .info > .more > a {
+  color: #fff;
+  padding: 6px 8px;
+  background-color: #63b76c;
+}
+.box .space {
+  height: 30px;
+}
